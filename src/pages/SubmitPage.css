@@ -1,0 +1,61 @@
+.submit-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fffdf9;
+  border: 1px solid #ebd4c2;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  color: #44322e;
+}
+
+.submit-container h2 {
+  text-align: center;
+  color: #b37453;
+  margin-bottom: 30px;
+}
+
+.submit-preview section {
+  margin-bottom: 25px;
+}
+
+.submit-preview h3 {
+  margin-bottom: 8px;
+  color: #9d4e2d;
+  font-size: 1.1rem;
+  border-left: 4px solid #f0d6c1;
+  padding-left: 10px;
+}
+
+.submit-preview p {
+  background-color: #fdf6f2;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  border-left: 3px solid #f1c2a7;
+}
+
+.submit-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto 0;
+  padding: 12px 0;
+  background-color: #e49b7c;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:disabled {
+  background-color: #f4cbb5;
+  cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #d88263;
+}

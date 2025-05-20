@@ -1,0 +1,81 @@
+/* Page4.css */
+
+.page4-container {
+  background: #fff7f5;
+  padding: 30px 25px;
+  border-radius: 10px;
+  max-width: 650px;
+  margin: 0 auto;
+  box-shadow: 0 3px 15px rgba(169, 109, 109, 0.2);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page4-container h2 {
+  text-align: center;
+  color: #a96d6d;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.page4-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1.8px solid #d4bcbc;
+  font-size: 1rem;
+  color: #5a3e3e;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page4-textarea:focus {
+  border-color: #a96d6d;
+  outline: none;
+  box-shadow: 0 0 8px rgba(169, 109, 109, 0.3);
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.page4-button {
+  background-color: #a96d6d;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(169, 109, 109, 0.4);
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+}
+
+.page4-button:hover {
+  background-color: #7f4e4e;
+}
+
+@media (max-width: 480px) {
+  .page4-container {
+    padding: 20px 15px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .page4-button {
+    width: 100%;
+    margin-bottom: 12px;
+    min-width: unset;
+  }
+}

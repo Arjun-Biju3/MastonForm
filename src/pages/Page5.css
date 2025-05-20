@@ -1,0 +1,80 @@
+/* Page5.css */
+
+.page5-container {
+  background: #fdf7f2;
+  padding: 30px 25px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 3px 15px rgba(189, 121, 92, 0.2);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page5-container h2 {
+  text-align: center;
+  color: #bd795c;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.page5-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1.8px solid #d6b9a8;
+  font-size: 1rem;
+  color: #5e4030;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page5-textarea:focus {
+  border-color: #bd795c;
+  outline: none;
+  box-shadow: 0 0 8px rgba(189, 121, 92, 0.3);
+}
+
+.page5-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.page5-button {
+  background-color: #bd795c;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(189, 121, 92, 0.4);
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+}
+
+.page5-button:hover {
+  background-color: #9e6145;
+}
+
+@media (max-width: 480px) {
+  .page5-container {
+    padding: 20px 15px;
+  }
+
+  .page5-buttons {
+    flex-direction: column;
+  }
+
+  .page5-button {
+    width: 100%;
+    margin-bottom: 12px;
+    min-width: unset;
+  }
+}
